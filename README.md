@@ -1,4 +1,4 @@
-# Improethics – Data Analysis
+# Endings – Data Analysis
 
 Jupyter notebooks for analysing the study **Endings**.
 

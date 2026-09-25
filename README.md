@@ -1,8 +1,8 @@
 # Improethics – Data Analysis
 
-Jupyter notebooks for analysing the listening study **Improethics** (Musical Ethics Lab).
+Jupyter notebooks for analysing the study **Endings**.
 
-Participants listened to a recorded free improvisation (≈ 11 minutes) and marked, in real time, the moments at which they expected the performance to end. They also gave some information about their personal background (age, gender, musical training, experience with improvisation).
+Participants listened to a freely improvised concert performance (≈ 11 minutes) and marked, in real time, the moments at which they expected the performance to end. They also provided information about their personal background (age, gender, musical training, experience with improvisation).
 
 The notebooks look at:
 
@@ -60,7 +60,6 @@ pip install -r requirements.txt
 pip install jupyter   # if you do not run the notebooks from PyCharm
 ```
 
-`kaleido` is used to export Plotly figures as SVG.
 
 ## Running the notebooks
 
@@ -73,4 +72,4 @@ Run the notebooks from inside `notebooks/`, since all paths are relative to it (
 3. **03-Sound** analyses `data/sound/performanceRoughMix.wav`. The recording is not included in the repository because it is too large (199 MB). Place it in `data/sound/` before running the notebook.
 4. **04-Relations-Background-Marks** loads `allDataDF.parquet` and `filteredDataDF.parquet`. Save `filteredDataDF` in notebook 02 first; notebook 04 uses whichever time window was set when you saved it.
 
-The interactive charts use `ipywidgets`. **Save SVG** buttons write figures to `image-output/`.
+**Save SVG** buttons write figures to `image-output/`.

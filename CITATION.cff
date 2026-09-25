@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Improethics – Data Analysis"
+abstract: >-
+  Jupyter notebooks for analysing the listening study Improethics
+  (Musical Ethics Lab). Participants marked, in real time, the moments at
+  which they expected a recorded free improvisation to end. The notebooks
+  analyse the distribution of these end marks, the sound recording and
+  relations to the participants' personal background.
+authors:
+  - family-names: Pirchner
+    given-names: Andreas
+type: software
+license:
+  - MIT        # Code
+  - CC-BY-4.0  # Data and figures
+keywords:
+  - music research
+  - endings
+  - improvisation
+  - listening study
+  - kernel density estimation

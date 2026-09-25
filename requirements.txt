@@ -1,0 +1,14 @@
+ipykernel==6.31.0
+ipywidgets==8.1.5
+kaleido==0.2.1
+KDEpy==1.1.12
+librosa==0.11.0
+matplotlib==3.8.0
+nbformat==5.10.4
+numpy==1.26.4
+pandas==2.1.4
+plotly==5.9.0
+pyarrow==21.0.0
+pyloudnorm==0.2.0
+scipy==1.11.4
+seaborn==0.13.2

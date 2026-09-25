@@ -1,0 +1,24 @@
+# Python / virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+00-All-Backup.ipynb
+
+# IDE and tools
+.idea/
+.vscode/
+.claude/
+
+# macOS
+.DS_Store
+
+# Audio recording (199 MB, above GitHub's 100 MB file limit)
+data/sound/*.wav
+
+# Participant data (not published)
+data/rawData/
+data/processedData/
+data/notebookData/
